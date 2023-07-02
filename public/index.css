@@ -1,0 +1,513 @@
+/* normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the section height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the section height in
+ * all browsers.
+ */
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+
+/**
+ * Correct the padding in Firefox.
+ */
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outlined style in Safari.
+ */
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+
+/*
+ * Add the correct display in all browsers.
+ */
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+
+/**
+ * Add the correct display in IE 10.
+ */
+
+.body {
+  --border-radius: 0px;
+  --color-white: #fefefe;
+  --color-primary-900: #121212;
+  --color-primary-800: #1a1a1a;
+  --color-primary-700: #1a1a1a;
+  --color-primary-600: #2c2c2c;
+  --color-primary-500: #353535;
+  --color-primary-400: #464646;
+  --color-primary-300: #5d5d5d;
+  --color-primary-200: #8b8b8b;
+  --color-primary-100: #bababa;
+  --color-secondary-900: #121212;
+  --color-secondary-800: #1a1a1a;
+  --color-secondary-700: #1a1a1a;
+  --color-secondary-600: #2c2c2c;
+  --color-secondary-500: #353535;
+  --color-secondary-400: #464646;
+  --color-secondary-300: #5d5d5d;
+  --color-secondary-200: #8b8b8b;
+  --color-secondary-100: #bababa;
+  --color-secondary-100: #e08685;
+  --color-secondary-200: #d36463;
+  --color-secondary-300: #c84241;
+  --color-secondary-400: #b8201f;
+  --color-secondary-500: #c80404;
+  --color-secondary-600: #a00303;
+  --color-secondary-700: #7f0202;
+  --color-secondary-800: #5d0101;
+  --color-secondary-900: #3b0000;
+  --color-btn: var(--color-primary-300);
+  --color-btn-hovered: var(--color-primary-900);
+  --color-btn-outlined: var(--color-primary-400);
+  --color-btn-tonal: var(--color-primary-500);
+  --color-btn-tonal-hovered: var(--color-primary-600);
+  --color-btn-call: var(--color-primary-900);
+  --color-text: var(--color-primary-900);
+  --color-text-white: #fefefe;
+  --color-title: var(--color-primary-700);
+  --color-title-white: var(--color-white);
+  --color-background-primary: #fefefe;
+  --color-background-secondary: #f9f9f9;
+  --color-icons-primary: var(--color-primary-500);
+  --color-footer: var(--color-primary-900);
+  --scrollbar: var(--color-secondary-500);
+  --color-border-link-menu: var(--color-primary-900);
+  --color-scroll: var(--color-primary-300);
+  --color-selection: var(--color-primary-400);
+}
+
+.mybtn {
+  background-color: var(--color-btn);
+  border-radius: var(--border-radius);
+  font-family: "button", arial;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 10px 24px;
+  height: -moz-min-content;
+  height: min-content;
+  min-width: -moz-max-content;
+  min-width: max-content;
+  max-width: -moz-max-content;
+  max-width: max-content;
+  border-radius: 4px;
+  box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15), 0px 1px 2px 0px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  font-weight: 600;
+  color: var(--color-white);
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  position: relative;
+  z-index: 1;
+}
+.mybtn::after {
+  content: " ";
+  background-color: var(--color-btn-hovered);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: -1;
+}
+.mybtn:hover::after {
+  opacity: 1;
+}
+.mybtn:active {
+  transform: scale(0.965);
+}
+.mybtn:active::after {
+  opacity: 1;
+}
+
+.mybtn--outlined {
+  background-color: transparent;
+  color: var(--color-btn-outlined);
+  border: 1px solid var(--color-btn-outlined);
+  box-shadow: none;
+}
+.mybtn--outlined::after {
+  background-color: var(--color-btn-outlined);
+}
+.mybtn--outlined:hover::after {
+  opacity: 0.15;
+}
+.mybtn--outlined:active::after {
+  opacity: 0.25;
+}
+
+.mybtn--tonal {
+  background-color: transparent;
+  color: var(--color-btn-tonal);
+  box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.05), 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+.mybtn--tonal::after {
+  background-color: var(--color-btn-tonal-hovered);
+  opacity: 0.1;
+}
+.mybtn--tonal:hover {
+  color: var(--color-text-white);
+}
+.mybtn--tonal:hover::after {
+  opacity: 1;
+}
+.mybtn--tonal:active::after {
+  opacity: 1;
+}
+
+.mybtn--call {
+  background-color: var(--color-btn-call);
+}
+.mybtn--call::after {
+  background-color: rgb(255, 255, 255);
+  opacity: 0;
+}
+.mybtn--call:hover::after {
+  opacity: 0.15;
+}
+.mybtn--call:active::after {
+  opacity: 0.25;
+}
+
+.mybtn--disabled {
+  opacity: 0.2;
+  pointer-events: none;
+}
+
+@font-face {
+  font-family: "Material Icons";
+  font-style: normal;
+  font-weight: 400;
+  src: url(./MaterialIcons-Regular.eot);
+  /* For IE6-8 */
+  src: local("Material Icons"), local("MaterialIcons-Regular"), url(https://example.com/MaterialIcons-Regular.woff2) format("woff2"), url(https://example.com/MaterialIcons-Regular.woff) format("woff"), url(https://example.com/MaterialIcons-Regular.ttf) format("truetype");
+  src: url(./MaterialIcons-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "p";
+  font-display: swap;
+  src: local("text"), url(./text.ttf) format("truetype");
+}
+@font-face {
+  font-family: "title";
+  font-display: swap;
+  font-style: normal;
+  src: local("title"), url(./title.ttf) format("truetype");
+}
+@font-face {
+  font-family: Arial, Helvetica, sans-serif;
+  font-family: "button";
+  font-display: swap;
+  src: local("text"), url(./text.ttf) format("truetype");
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: "title";
+  line-height: 1;
+  font-weight: 500;
+  color: var(--color-title);
+  --scale-text: 20px;
+}
+
+.h1 {
+  font-size: calc(var(--scale-text) + 42px);
+  text-align: center;
+}
+@media (min-height: 400px) and (min-width: 768px) {
+  .h1 {
+    font-size: calc(var(--scale-text) + 48px);
+  }
+}
+
+.h2 {
+  font-size: calc(var(--scale-text) + 28px);
+}
+@media (min-height: 400px) and (min-width: 768px) {
+  .h2 {
+    font-size: calc(var(--scale-text) + 40px);
+  }
+}
+
+.h3 {
+  font-size: calc(var(--scale-text) + 24px);
+}
+@media (min-height: 400px) and (min-width: 768px) {
+  .h3 {
+    font-size: calc(var(--scale-text) + 32px);
+  }
+}
+
+.h4 {
+  font-size: calc(var(--scale-text) + 20px);
+}
+@media (min-height: 400px) and (min-width: 768px) {
+  .h4 {
+    font-size: calc(var(--scale-text) + 22px);
+  }
+}
+
+.p {
+  font-size: inherit;
+  text-align: left;
+}
+
+.p-semibold {
+  font-weight: 600;
+  font-size: inherit;
+  text-align: left;
+}
+
+.p-small {
+  font-size: 14px;
+}
+
+:root {
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-7: 32px;
+  --space-8: 40px;
+  --space-9: 48px;
+}
+@media screen and (min-width: 768px) {
+  :root {
+    --space-1: 8px;
+    --space-2: 12px;
+    --space-3: 16px;
+    --space-4: 20px;
+    --space-5: 24px;
+    --space-6: 32px;
+    --space-7: 40px;
+    --space-8: 48px;
+    --space-9: 64px;
+  }
+}
+
+ .mybtn::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*::-moz-selection {
+  background: var(--color-selection);
+  color: var(--color-white);
+}
+*::selection {
+  background: var(--color-selection);
+  color: var(--color-white);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--color-text);
+  font-family: "p";
+  font-size: 1rem;
+}
+
+p {
+  line-height: 1.5;
+}
+
+a {
+  line-height: 1;
+}
+
+a {
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  text-decoration: none;
+  color: inherit;
+}
+
+html,
+body {
+  height: 100%;
+  position: relative;
+}
+
+.container-lg {
+  max-width: 1140px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+main {
+  background-color: red;
+}

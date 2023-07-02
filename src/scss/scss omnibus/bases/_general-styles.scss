@@ -1,0 +1,109 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+	&::selection {
+		background: var(--color-selection);
+		color: var(--color-white);
+	}
+
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	color: var(--color-text);
+	font-family: "p";
+	font-size: 1rem;
+}
+
+input {
+	color: var(--color-text);
+}
+
+input::placeholder {
+	user-select: none;
+}
+
+input[type="search"] {
+	&::-webkit-search-cancel-button {
+		display: none;
+	}
+}
+
+p {
+	line-height: 1.5;
+}
+
+.line-height-p {
+	line-height: 1.5;
+}
+
+address,
+span {
+	line-height: 1.2;
+}
+
+a {
+	line-height: 1;
+}
+
+div {
+	// line-height: 0;
+}
+
+a {
+	cursor: pointer;
+	user-select: none;
+	text-decoration: none;
+	color: inherit;
+}
+
+img {
+	max-width: 100%;
+}
+
+li {
+	list-style: none;
+}
+
+html,
+body {
+	height: 100%;
+	position: relative;
+}
+
+address {
+	font-style: normal;
+	display: ininline-block;
+}
+
+// Contenedor para pantallas grandes (≥1200px)
+.container-lg {
+	max-width: 1140px; 
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 1rem;
+	padding-right: 1rem;
+  }
+  
+  // Contenedor para pantallas medianas (≥992px)
+  .container-md {
+	max-width: 960px; 
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 1rem;
+	padding-right: 1rem;
+  }
+  
+  // Contenedor para pantallas pequeñas (≥768px)
+  .container-sm {
+	max-width: 720px; 
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 1rem;
+	padding-right: 1rem;
+  }
