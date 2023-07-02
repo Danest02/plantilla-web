@@ -1,5 +1,35 @@
 @import "../scss omnibus/global";
 
-main{
-    background-color: red;
+.main {
+    height: 100vh;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    background-color: indigo;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+    & > * {
+        scroll-snap-align: center;
+        height: 100%;
+    }
+    .section {
+        @extend .flex-center;
+        background-color: rgba(71, 35, 60, 0.801);
+    }
+
+    .section-1 {
+        background-color: rgba(71, 35, 60, 0.801);
+
+    }
+
+    .section-2 {
+        background-color: rgba(35, 37, 71, 0.801);
+
+    }
+
+    .section-3 {
+        background-color: rgba(35, 64, 71, 0.801);
+
+    }
 }

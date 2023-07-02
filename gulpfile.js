@@ -45,6 +45,9 @@ gulp.task("cssPages", () => {
             content: ["./public/*.html"],
             css: ["./public/styles.css"],
             safelist: [
+                "hamburguer--simple",
+                "navbar-content--active",
+                "filter-blur"
             ],
             FontFace: true,
             variables: false,
